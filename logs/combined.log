@@ -1,0 +1,13 @@
+{"level":"error","message":"num1 is incorrectly defined","service":"calculator-microservice"}
+{"level":"info","message":"Parameters 23 and 4 received for exponentiation","service":"calculator-microservice"}
+{"level":"info","message":"Parameters 23 and 4 received for exponentiation","service":"calculator-microservice"}
+{"level":"info","message":"Parameter 8 received for square root","service":"calculator-microservice"}
+{"level":"info","message":"Parameters 8 and 4 received for modulo operation","service":"calculator-microservice"}
+{"level":"error","message":"num2 is incorrectly defined","service":"calculator-microservice"}
+{"level":"error","message":"Exponent is incorrectly defined","service":"calculator-microservice"}
+{"level":"info","message":"Parameters 23 and 34 received for addition","service":"calculator-microservice"}
+{"level":"info","message":"Parameters 23 and 3 received for exponentiation","service":"calculator-microservice"}
+{"level":"info","message":"Parameters 23 and 3 received for exponentiation","service":"calculator-microservice"}
+{"level":"info","message":"Parameters 23 and 3 received for exponentiation","service":"calculator-microservice"}
+{"level":"info","message":"Parameter 4 received for square root","service":"calculator-microservice"}
+{"level":"info","message":"Parameters 7 and 3 received for modulo operation","service":"calculator-microservice"}
