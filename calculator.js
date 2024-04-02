@@ -6,9 +6,9 @@ const add = (num1, num2) => { return num1 + num2; }                            /
 const sub = (num1, num2) => { return num1 - num2; }                           //  This line defines subtract function
 const multi = (num1, num2) => { return num1 * num2; }                        //  This line defines multiplication function
 const div = (num1, num2) => { return num1 / num2; }                         //  This line defines division function
-const exp = (base, exponent) => { return Math.pow(base, exponent); }
-const sqrt = (num) => { return Math.sqrt(num); }
-const modulo = (num1, num2) => { return num1 % num2; }
+const exp = (base, exponent) => { return Math.pow(base, exponent); }        //  This line defines exponentiation function
+const sqrt = (num) => { return Math.sqrt(num); }                             //  This line defines square root function
+const modulo = (num1, num2) => { return num1 % num2; }                       //  This line defines modulo function
 
 const logger = winston.createLogger({                                                   // This line creates the winston logger instance
     level: 'info',                                                                       // This line set log level to info
