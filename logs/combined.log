@@ -11,3 +11,7 @@
 {"level":"info","message":"Parameters 23 and 3 received for exponentiation","service":"calculator-microservice"}
 {"level":"info","message":"Parameter 4 received for square root","service":"calculator-microservice"}
 {"level":"info","message":"Parameters 7 and 3 received for modulo operation","service":"calculator-microservice"}
+{"level":"info","message":"Parameters 23 and 34 received for addition","service":"calculator-microservice"}
+{"level":"info","message":"Parameters 2 and 4 received for exponentiation","service":"calculator-microservice"}
+{"level":"info","message":"Parameter 4 received for square root","service":"calculator-microservice"}
+{"level":"info","message":"Parameters 11 and 5 received for modulo operation","service":"calculator-microservice"}
