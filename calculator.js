@@ -5,11 +5,26 @@ const winston = require('winston');                                            /
 const add = (num1, num2) => { return num1 + num2; }                            //  This line defines add function  
 const sub = (num1, num2) => { return num1 - num2; }                           //  This line defines subtract function
 const multi = (num1, num2) => { return num1 * num2; }                        //  This line defines multiplication function
-const div = (num1, num2) => { return num1 / num2; }                         //  This line defines division function
+const div = (num1, num2) => {                                                    //  This line defines division function
+    if (num2 === 0) {
+        throw new Error("Division by zero error");
+    }
+    return num1 / num2;
+}                         
 const exp = (base, exponent) => { return Math.pow(base, exponent); }        //  This line defines exponentiation function
-const sqrt = (num) => { return Math.sqrt(num); }                             //  This line defines square root function
-const modulo = (num1, num2) => { return num1 % num2; }                       //  This line defines modulo function
+const sqrt = (num) => {                                                      //  This line defines square root function
+    if (num < 0) {
+        throw new Error("Square root of negative number is not defined");
+    }
+    return Math.sqrt(num);
+}                            
+const modulo = (num1, num2) => {                                                     //  This line defines modulo function
 
+    if (num2 === 0) {
+        throw new Error("Modulo by zero error");
+    }
+    return num1 % num2;
+}                       
 const logger = winston.createLogger({                                                   // This line creates the winston logger instance
     level: 'info',                                                                       // This line set log level to info
     format: winston.format.json(),                                                       // It uses json format for logging
